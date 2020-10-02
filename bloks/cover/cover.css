@@ -1,0 +1,14 @@
+@import url(./__subtitle/cover__subtitle.css);
+@import url(./__title/cover__title.css);
+@import url(./__link/cover__link.css);
+
+.cover {
+    width: 1184px;
+    height: 740px;
+    background-image: url("../../pictures/to_baikal_with_dogs.png");
+    margin: 92px auto 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

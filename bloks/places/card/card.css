@@ -1,0 +1,17 @@
+@import url(../card/__title/card__title.css);
+@import url(../card/__picture/card__picture.css);
+@import url(../card/__url-heading/card__url-heading.css);
+@import url(../card/__link/card__link.css);
+@import url(../card/__links/card__links.css);
+@import url(../card/__text/card__text.css);
+@import url(../card/__paragraph/card__paragraph.css);
+
+.card {
+    width: 100%;
+    min-height: 584px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 40px;
+    row-gap: 48px;
+}
