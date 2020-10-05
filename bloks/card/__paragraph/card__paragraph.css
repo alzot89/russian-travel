@@ -1,10 +1,10 @@
-.intro__text {
-    margin: 40px 0 0 0;
+.card__paragraph {
+    margin: 0;
     max-width: 100%;
     font-family: Inter;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.63;
     color: #FFFFFF;
 }
