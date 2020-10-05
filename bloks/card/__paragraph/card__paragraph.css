@@ -1,11 +1,10 @@
 .card__paragraph {
     margin: 0;
-    width: 100%;
+    max-width: 100%;
     font-family: Inter;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 18px;
-    line-height: 163%;
-    /* or 29px */
+    line-height: 1.63;
     color: #FFFFFF;
 }

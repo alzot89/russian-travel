@@ -5,9 +5,25 @@
 .footer {
     padding: 92px 0 24px;
     max-width: 1184px;
-    min-height: 18px;
     margin: 0 auto;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
     box-sizing: border-box;
+}
+
+@media screen and (max-width: 464px) {
+    .footer {
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 64px 0 24px;
+        margin: 0 16px;
+    }
+}
+
+@media (min-width: 464px) and (max-width: 1187px) {
+    .footer {
+        margin: 0 24px;
+    }
 }

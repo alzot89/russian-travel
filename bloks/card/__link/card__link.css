@@ -1,0 +1,17 @@
+.card__link {
+    margin: 12px 0 0 0;
+    max-width: 100%;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.22;
+    color: #FFFFFF;
+    opacity: 1;
+    transition: opacity 1s ease;
+}
+
+
+.card__link:hover {
+    opacity: 0.8;
+}

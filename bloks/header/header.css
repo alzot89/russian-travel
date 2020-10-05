@@ -10,3 +10,16 @@
     padding-top: 28px;
     margin: 0 auto;
 }
+
+@media (min-width: 440px) and (max-width: 1187px) {
+    .header {
+        margin: 0 24px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .header {
+        margin: 0 16px;
+        padding-top: 16px;
+    }
+}

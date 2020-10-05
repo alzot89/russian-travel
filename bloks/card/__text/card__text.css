@@ -1,0 +1,15 @@
+.card__text {
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: min-content;
+    gap: 24px;
+}
+
+
+@media screen and (max-width: 630px) {
+    .card__text {
+        width: calc(100% - 32px);
+    }
+}
