@@ -22,7 +22,7 @@
 
 @media screen and (max-width: 440px) {
     .intro {
-        padding-top: 64px ;
+        padding-top: 64px;
         margin: 0 16px;
         transform: translate(0,0);
     }
