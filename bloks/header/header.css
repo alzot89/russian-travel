@@ -9,8 +9,16 @@
     justify-content: space-between;
     box-sizing: border-box;
     padding-top: 28px;
-    margin: 0 48px;
+    margin: 0 auto;
 }
+
+
+@media screen and (max-width: 1280px) {
+    .header {
+        margin: 0 48px;
+    }
+}
+
 
 @media (min-width: 440px) and (max-width: 930px) {
     .header {

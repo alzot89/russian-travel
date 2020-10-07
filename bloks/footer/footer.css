@@ -14,7 +14,7 @@
     box-sizing: border-box;
 }
 
-@media (min-width: 800px) and (max-width: 1187px) {
+@media (min-width: 800px) and (max-width: 1184px) {
     .footer {
         margin: 0 48px;
     }
