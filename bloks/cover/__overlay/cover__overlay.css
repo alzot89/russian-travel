@@ -1,18 +1,35 @@
 .cover__overlay {
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
+    height: 740px;
     background-color: rgba(42,44,47, .3);
     transition: background-color 1s ease;
     text-decoration: none;
-    position: absolute;
-    top: 0;
-    left: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+/*Кучу вариантов перепробовал, но так и не смог задать высоту в относительных величинах. Самая удачная идея была задать psdding-top: 62,5%, но при этом заголовок и подзаголовок надо позиционировать абсолютно, что тоже не получится сделать в относительных величинах. Возможно ли вообще эту секцию реализовать без медиазапросов кроме текста конечно? */
+
 .cover__overlay:hover {
     background-color: rgba(42,44,47, .8);
+}
+
+@media screen and (max-width: 1050px) {
+    .cover__overlay {
+        height: 640px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .cover__overlay {
+        height: 480px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .cover__overlay {
+        height: 200px;
+    }
 }

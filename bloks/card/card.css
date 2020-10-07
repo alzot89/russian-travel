@@ -7,9 +7,9 @@
 @import url(./__paragraph/card__paragraph.css);
 
 .card {
-    width: 100%;
+    max-width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: minmax(340px, 460px) minmax(352px, 484px);
     column-gap: 40px;
     row-gap: 48px;
 }
@@ -25,7 +25,7 @@
         column-gap: 28px;
     }
 }
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 740px) {
     .card {
         gap: 32px;
         grid-template-columns: 1fr;

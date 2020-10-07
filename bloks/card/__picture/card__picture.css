@@ -1,4 +1,19 @@
 .card__picture {
-    width: 100%;
+    margin: 0;
+    max-width: 100%;
     object-fit: cover;
+}
+
+@media screen and (max-width: 630px) {
+        .card__picture {
+        margin: 0 16px;
+        }
+
+}
+
+@media screen and (max-width: 480px) {
+        .card__picture {
+        margin: 0;
+        }
+
 }

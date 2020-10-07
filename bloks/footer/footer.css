@@ -1,6 +1,7 @@
 @import url(./__links/footer__links.css);
 @import url(./__link/footer__link.css);
 @import url(./__copiright/footer__copyright.css);
+@import url(./__list-element/footer__list-element.css);
 
 .footer {
     padding: 92px 0 24px;
@@ -13,17 +14,24 @@
     box-sizing: border-box;
 }
 
+@media (min-width: 800px) and (max-width: 1187px) {
+    .footer {
+        margin: 0 48px;
+    }
+}
+
+@media (min-width: 464px) and (max-width: 800px) {
+    .footer {
+        margin: 0 24px;
+    }
+}
+
+
 @media screen and (max-width: 464px) {
     .footer {
         flex-direction: column;
         justify-content: space-between;
         padding: 64px 0 24px;
         margin: 0 16px;
-    }
-}
-
-@media (min-width: 464px) and (max-width: 1187px) {
-    .footer {
-        margin: 0 24px;
     }
 }

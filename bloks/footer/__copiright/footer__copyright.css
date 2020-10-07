@@ -1,12 +1,20 @@
 .footer__copyright {
     margin: 0;
     max-width: 186px;
-    font-family: Inter;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 1.14;
     color: #FFFFFF;
+}
+
+
+
+@media (min-width: 464px) and (max-width: 647px) {
+    .footer__copyright {
+        margin-top: 16px;
+    }
+
 }
 
 @media screen and (max-width: 464px) {
@@ -15,11 +23,4 @@
         line-height: 1;
         margin-top: 48px;
     }
-}
-
-@media (min-width: 464px) and (max-width: 647px) {
-    .footer__copyright {
-        margin-top: 16px;
-    }
-
 }

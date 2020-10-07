@@ -1,9 +1,10 @@
 @import url(./__link/header__link.css);
 @import url(./__logo/header__logo.css);
 @import url(./__links/header__links.css);
+@import url(./__list-element/header__list-element.css);
 
 .header {
-    max-width: 1184px;
+    max-width: calc(100% - 96px);
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
@@ -11,15 +12,15 @@
     margin: 0 auto;
 }
 
-@media (min-width: 440px) and (max-width: 1187px) {
+@media (min-width: 440px) and (max-width: 930px) {
     .header {
-        margin: 0 24px;
+        max-width: calc(100% - 48px);;
     }
 }
 
 @media screen and (max-width: 440px) {
     .header {
-        margin: 0 16px;
+        max-width: calc(100% - 32px);
         padding-top: 16px;
     }
 }

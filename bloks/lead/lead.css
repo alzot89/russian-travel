@@ -6,10 +6,23 @@
 
 .lead {
     max-width: 984px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
     padding-top: 56px;
     box-sizing: border-box;
     position: relative;
+}
+
+@media (min-width: 800px) and (max-width: 1080px) {
+    .lead {
+        margin: 0 48px;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .lead {
+        margin: 0;
+    }
 }
